@@ -1,0 +1,164 @@
+.bc{
+height:450px;
+width:149%;
+transform:translatey(-25%)translatex(-1%);
+background:#4d36d6;
+}
+
+.txe{
+font-size:800%;
+width:10%;
+height:10%;
+				transform: translatey(-320%)translatex(400%);
+				margin-right: auto;
+}
+.img{
+				transform:translatex(10%) translatey(-1%);
+				height:1100px;
+				width:1100px;
+				
+}
+.ds{
+font-size:800%;
+				transform:translatex(5%) translatey(-10%);
+				width:90%;
+}
+.aut{
+				font-size:200%;
+				transform:translatex(5%) translatey(-100%);
+				width:50%;
+}
+.ftg{
+				font-size:800%;
+				margin-left:5%;
+}
+.fnt{
+				font-size:470%;
+				margin-left:5%;			
+				
+}
+.frd{
+			border-radius:10%;
+			max-width:100%;
+}
+.bnc{
+height:50%;
+width:66.5%;
+background:blue;
+border-top-left-radius:5%;
+border-bottom-left-radius:5%;
+transform: translatey(58%);
+margin-left: auto;
+}
+.bbm{
+height:10%;
+width:33.5%;
+background:#2b2eff;
+border-top-left-radius:5%;
+border-bottom-left-radius:5%;
+transform: translatey(-150%);
+margin-left: auto;
+}
+.vtr{
+				width:300px;
+				height:100px;
+				margin-left:500px;
+margin-top:100px;				
+}
+.escpp{
+				border-color:#2b2eff;
+border-style:outset;
+width:200px;
+font:bold 50px arial, sans-serif;
+text-shadow:none;
+background:#d71259;
+color:blue;
+border-radius:10%;
+}
+.imp{
+		transform:translatex(10%) translatey(5%);
+		height:1100px;
+				width:1100px;
+}
+.rdb{
+				width:130%;
+				height:10%;
+				border-radius:5%;
+				padding:5%;
+}
+.rd1{
+							
+				width:138%;		
+				margin-top:10%;
+				border-radius:5%;
+				padding-top:10%;
+				padding-bottom:10%;
+				padding-right:5%;
+}
+.rd2{
+						
+				width:138%;		
+				margin-top:10%;
+				border-radius:5%;
+				padding-top:0.5%;
+				padding-bottom:15%;
+				padding-right:5%;
+}
+.rd3{
+						background:#bbe6f9;
+				width:138%;			
+				margin-top:10%;
+				border-radius:5%;
+				padding-top:0.5%;
+				padding-bottom:15%;
+				padding-right:5%;
+}
+.rd4{
+						
+				width:138%;		
+				margin-top:10%;
+				border-radius:5%;
+				padding-top:0.5%;
+				padding-bottom:15%;
+				padding-right:5%;
+}
+.rd5{
+						
+				width:138%;		
+				margin-top:10%;
+				border-radius:5%;
+				padding-top:0.5%;
+				padding-bottom:15%;
+				padding-right:5%;
+}
+.rd6{
+						
+				width:138%;		
+				margin-top:10%;
+				border-radius:5%;
+				padding-top:0.5%;
+						padding-bottom:15%;
+						padding-right:5%;
+}
+.rdgr{
+    background:#bbe6f9; 
+}
+.cima_ol{
+    margin-top:1000px;
+}
+.botao{
+    background:#bbe6f9;
+    padding:5%;
+    font-size:800%;
+    
+    
+    border-radius:10%;
+    border-width:0px;
+}
+.bota{
+    margin-left:50%;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
