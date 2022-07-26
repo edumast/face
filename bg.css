@@ -37,6 +37,19 @@ font-size:800%;
 				margin-left:5%;			
 				
 }
+
+.men{
+    font-size:400%;
+				margin-left:5%;			
+}
+
+.mai{
+				font-size:520%;
+				margin-left:5%;			
+				
+}
+
+
 .frd{
 			border-radius:10%;
 			max-width:100%;
@@ -161,4 +174,8 @@ border-radius:10%;
 .container {
   display: grid;
   grid-template-columns: 1fr;
+}
+.bt{
+    width:20%;
+    height:50px;
 }
