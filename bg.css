@@ -43,13 +43,14 @@ padding-top:5% ;
 			 margin-top:5%;			
 				margin-bottom:5%;			
 				padding-top:5%;
-				font-size:450%;
+				font-size:420%;
 				margin-left:0%;			
 				width:136%;		
 				border-radius:5%;
 				padding-bottom:5%;
 				padding-right:1%; 				
 		  background: white;
+		  padding-left:5%;
 }
 
 .mai{
@@ -61,7 +62,8 @@ padding-top:5% ;
 				border-radius:5%;
 				padding-bottom:5%;
 				padding-right:1%;
-					background: white;
+				background: white;
+				padding-left:5%;
 }
 
 
@@ -129,6 +131,7 @@ border-radius:10%;
 				margin-left:0%;			
 				width:136%;			
 				border-radius:5%;
+				padding-left:5%;
 				padding-bottom:15%;
 				padding-right:1%;
 }
