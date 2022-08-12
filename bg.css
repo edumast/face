@@ -40,14 +40,31 @@ padding-top:5% ;
 }
 
 .men{
+				padding-top:5% ;
+				font-size:470%;
+				margin-left:0%;			
+				width:138%;		
+				margin-top:10%;
+				border-radius:5%;
+				padding-left:5%;
+				padding-bottom:15%;
+				padding-right:1%; 
     font-size:400%;
-				margin-left:5%;			
+		background: white;
 }
 
 .mai{
 				font-size:520%;
-				margin-left:5%;			
-				
+					padding-top:5% ;
+				font-size:470%;
+				margin-left:0%;			
+				width:138%;		
+				margin-top:10%;
+				border-radius:5%;
+				padding-left:5%;
+				padding-bottom:15%;
+				padding-right:1%;
+					background: white;
 }
 
 

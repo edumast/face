@@ -1,7 +1,7 @@
 var ja=1;
  function mud(){
  if (ja == 1){
-const img= document.querySelectorAll('.fnt');
+const img= document.querySelectorAll('.rd2');
      
      img.forEach(element => {
      element.setAttribute('class', 'men');
@@ -15,7 +15,7 @@ const img= document.querySelectorAll('.men');
 }else if(ja==3){
     const img= document.querySelectorAll('.mai');
       img.forEach(element => {
-     element.setAttribute('class', 'fnt'); });
+     element.setAttribute('class', 'rd2'); });
      ja=1;
 }
 
