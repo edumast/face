@@ -33,6 +33,7 @@ font-size:800%;
 				margin-left:5%;
 }
 .fnt{
+padding-top:5% ;
 				font-size:470%;
 				margin-left:5%;			
 				
@@ -109,13 +110,15 @@ border-radius:10%;
 				padding-right:5%;
 }
 .rd2{
-						
+						padding-top:5% ;
+				font-size:470%;
+				margin-left:0%;			
 				width:138%;		
 				margin-top:10%;
 				border-radius:5%;
-				padding-top:0.5%;
+				padding-left:5%;
 				padding-bottom:15%;
-				padding-right:5%;
+				padding-right:1%;
 }
 .rd3{
 						background:#bbe6f9;
