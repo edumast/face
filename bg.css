@@ -134,8 +134,13 @@ border-radius:10%;
 				padding-left:5%;
 				padding-bottom:15%;
 				padding-right:1%;
-				  font-family: "Times New Roman", Times, serif;
-	
+				
+}
+.fon{
+      font-family: "Times New Roman", Times, serif;
+}
+.fon2{
+    font-family: Arial, Helvetica, sans-serif;
 }
 .rd3{
 						background:#bbe6f9;

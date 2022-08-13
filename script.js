@@ -18,7 +18,20 @@ const img= document.querySelectorAll('.men');
      element.setAttribute('class', 'rd2'); });
      ja=1;
 }
-
-   
 }
+var fon=1;
+function fom(){
+ if (fon == 1){
+const img= document.querySelectorAll('.fon');
+     
+     img.forEach(element => {
+     element.setAttribute('class', 'fon2 rd2');
+     });
+     fon=2;
+}else if(fon == 2){
+const img= document.querySelectorAll('.fon2');
+      img.forEach(element => {
+     element.setAttribute('class', 'fon rd2'); });
+     fon=1; 
+}}
     
