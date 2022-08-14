@@ -4,18 +4,18 @@ var ja=1;
 const img= document.querySelectorAll('.rd2');
      
      img.forEach(element => {
-     element.setAttribute('class', 'men');
+     element.setAttribute('class', 'men fon');
      });
      ja=2;
 }else if(ja==2){
 const img= document.querySelectorAll('.men');
       img.forEach(element => {
-     element.setAttribute('class', 'mai'); });
+     element.setAttribute('class', 'mai fon'); });
      ja=3;
 }else if(ja==3){
     const img= document.querySelectorAll('.mai');
       img.forEach(element => {
-     element.setAttribute('class', 'rd2'); });
+     element.setAttribute('class', 'rd2 fon'); });
      ja=1;
 }
 }
