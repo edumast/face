@@ -1,15 +1,25 @@
 .bc{
-height:450px;
+height:250px;
 width:149%;
-transform:translatey(-25%)translatex(-1%);
-background:#4d36d6;
+transform:translatey(-40%)translatex(-1%);
+background:white;
+}
+
+.apresen{
+font-size:200%;
+color:blue;
+width:50%;
+height:10%;
+				transform: translatey(180%)translatex(20%);
+				margin-right: auto;
 }
 
 .txe{
 font-size:800%;
+color:blue;
 width:10%;
 height:10%;
-				transform: translatey(-320%)translatex(400%);
+				transform: translatey(100%)translatex(80%);
 				margin-right: auto;
 }
 .img{
@@ -128,13 +138,10 @@ border-radius:10%;
 .rd2	{
 				padding-top:5%;
 				font-size:470%;
-				margin-left:0%;			
 				width:136%;			
-				border-radius:5%;
 				padding-left:5%;
 				padding-bottom:15%;
 				padding-right:1%;
-				
 }
 .fon{
       font-family: "Times New Roman", Times, serif;
@@ -204,3 +211,38 @@ border-radius:10%;
     width:20%;
     height:50px;
 }
+
+}
+
+
+   height:50px;
+}
+
+}
+
+
+
+}
+
+
+
+    height:50px;
+}
+
+}
+
+
+   height:50px;
+}
+
+}
+
+
+
+   height:50px;
+}
+
+}
+
+
+
