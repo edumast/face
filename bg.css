@@ -1,8 +1,12 @@
+.hora{
+    color:blue;
+}
 .bc{
 height:250px;
 width:149%;
-transform:translatey(-40%)translatex(-1%);
+transform:translatey(-40%)translatex(-5%);
 background:white;
+margin-bottom:-10%;
 }
 
 .apresen{
@@ -10,7 +14,7 @@ font-size:200%;
 color:blue;
 width:50%;
 height:10%;
-				transform: translatey(180%)translatex(20%);
+				transform: translatey(250%)translatex(17%);
 				margin-right: auto;
 }
 
@@ -238,11 +242,13 @@ border-radius:10%;
 }
 
 
-
    height:50px;
 }
 
 }
+
+
+
 
 
 
