@@ -1,5 +1,7 @@
 .hora{
     color:blue;
+    transform: translatey(50%);
+    	padding-bottom:5%;
 }
 .bc{
 height:250px;
@@ -144,7 +146,6 @@ border-radius:10%;
 				font-size:470%;
 				width:136%;			
 				padding-left:5%;
-				padding-bottom:15%;
 				padding-right:1%;
 }
 .fon{
@@ -246,6 +247,13 @@ border-radius:10%;
 }
 
 }
+
+
+
+
+
+
+
 
 
 
