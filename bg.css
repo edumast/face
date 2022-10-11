@@ -3,6 +3,7 @@
     transform: translatey(50%);
     	padding-bottom:5%;
 }
+
 .bc{
 height:250px;
 width:149%;
@@ -232,7 +233,7 @@ border-radius:10%;
 .ft_usr{
     width: 120px;
     height: 120px;
-    border-radius:50%;
+    /*border-radius:50%; */
 }
 
 .name{
