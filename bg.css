@@ -216,47 +216,40 @@ border-radius:10%;
     width:20%;
     height:50px;
 }
+.poli{
+	padding-top:5%;
+				font-size:470%;
+				background: white;
+				width:136%;			
+				padding-left:5%;
+				padding-right:1%;
+    font-family: "Times New Roman", Times, serif;
+}
+.polinot{
+    visibility:hidden;
+}
 
+.ft_usr{
+    width: 120px;
+    height: 120px;
+    border-radius:50%;
+}
+
+.name{
+   margin-top: -3%;
 }
 
 
-   height:50px;
-}
-
-}
-
-
-
+.nam{
+   margin-top: -9%;
+   margin-left:11%;
+   font-size: 50%;
 }
 
 
-
-    height:50px;
+.txt_b{
+    margin-top: 2%;
 }
-
-}
-
-
-   height:50px;
-}
-
-}
-
-
-   height:50px;
-}
-
-}
-
-
-
-
-
-
-
-
-
-
 
 
 
