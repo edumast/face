@@ -1,9 +1,19 @@
+.tz{
+    background: blue;
+    height: 300px;
+    width: 100%;
+    margin-top:50%;
+    transform:rotateX(86deg);
+    
+}
+
 .hora{
     color:blue;
     transform: translatey(50%);
     	padding-bottom:5%;
 }
 
+/* Div de cima central */
 .bc{
 height:250px;
 width:149%;
@@ -12,6 +22,7 @@ background:white;
 margin-bottom:-10%;
 }
 
+/* Parte de cima */
 .apresen{
 font-size:200%;
 color:blue;
@@ -88,7 +99,7 @@ padding-top:5% ;
 			border-radius:10%;
 			max-width:100%;
 }
-.bnc{
+/* .bnc{
 height:50%;
 width:66.5%;
 background:blue;
@@ -96,8 +107,8 @@ border-top-left-radius:5%;
 border-bottom-left-radius:5%;
 transform: translatey(58%);
 margin-left: auto;
-}
-.bbm{
+} */
+/* .bbm{
 height:10%;
 width:33.5%;
 background:#2b2eff;
@@ -105,14 +116,14 @@ border-top-left-radius:5%;
 border-bottom-left-radius:5%;
 transform: translatey(-150%);
 margin-left: auto;
-}
-.vtr{
+} */
+/* .vtr{
 				width:300px;
 				height:100px;
 				margin-left:500px;
 margin-top:100px;				
-}
-.escpp{
+} */
+/* .escpp{
 				border-color:#2b2eff;
 border-style:outset;
 width:200px;
@@ -121,7 +132,7 @@ text-shadow:none;
 background:#d71259;
 color:blue;
 border-radius:10%;
-}
+} */
 .imp{
 		transform:translatex(10%) translatey(5%);
 		height:1100px;
@@ -155,42 +166,7 @@ border-radius:10%;
 .fon2{
     font-family: Arial, Helvetica, sans-serif;
 }
-.rd3{
-						background:#bbe6f9;
-				width:138%;			
-				margin-top:10%;
-				border-radius:5%;
-				padding-top:0.5%;
-				padding-bottom:15%;
-				padding-right:5%;
-}
-.rd4{
-						
-				width:138%;		
-				margin-top:10%;
-				border-radius:5%;
-				padding-top:0.5%;
-				padding-bottom:15%;
-				padding-right:5%;
-}
-.rd5{
-						
-				width:138%;		
-				margin-top:10%;
-				border-radius:5%;
-				padding-top:0.5%;
-				padding-bottom:15%;
-				padding-right:5%;
-}
-.rd6{
-						
-				width:138%;		
-				margin-top:10%;
-				border-radius:5%;
-				padding-top:0.5%;
-						padding-bottom:15%;
-						padding-right:5%;
-}
+
 .rdgr{
     background:#bbe6f9; 
 }
@@ -226,14 +202,15 @@ border-radius:10%;
 				padding-right:1%;
     font-family: "Times New Roman", Times, serif;
 }
-.polinot{
+/* .polinot{
     visibility:hidden;
-}
+} */
 
 .ft_usr{
     width: 120px;
     height: 120px;
     margin-bottom: -1%;
+    border-radius:25%;
     /*border-radius:50%; */
 }
 
@@ -257,3 +234,6 @@ border-radius:10%;
     color:grey;
 }
 
+cite{
+    color: #ffdc00;
+}
