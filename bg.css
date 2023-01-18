@@ -15,7 +15,7 @@
 
 /* Div de cima central */
 .bc{
-height:250px;
+height:200px;
 width:149%;
 transform:translatey(-40%)translatex(-5%);
 background:white;
@@ -29,7 +29,7 @@ font-size:200%;
 color:blue;
 width:50%;
 height:10%;
-				transform: translatey(700%)translatex(17%);
+				transform: translatey(900%)translatex(17%);
 				margin-right: auto;
 }
 
@@ -38,7 +38,7 @@ font-size:800%;
 color:blue;
 width:10%;
 height:10%;
-				transform: translatey(600%) translatex(80%);
+				transform: translatey(700%) translatex(80%);
 				margin-right: auto;
 }
 .img{
