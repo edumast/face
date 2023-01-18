@@ -18,8 +18,9 @@
 height:200px;
 width:149%;
 transform:translatey(-40%)translatex(-5%);
-background:white;
+
 margin-bottom:-10%;
+
 
 }
 
@@ -31,6 +32,7 @@ width:50%;
 height:10%;
 				transform: translatey(900%)translatex(17%);
 				margin-right: auto;
+				
 }
 
 .txe{
@@ -229,6 +231,7 @@ border-radius:10%;
 
 .txt_b{
     margin-top: 2%;
+    
 }
 
 .tempo{
@@ -246,7 +249,9 @@ cite{
   right: 0;
   
   padding-bottom: 20%;
-  z-index: 999;
+   
+  background-color: rgba(255, 255, 255, 0.9);
+  
 }
 
 .espaço{
