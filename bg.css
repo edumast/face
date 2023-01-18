@@ -20,6 +20,7 @@ width:149%;
 transform:translatey(-40%)translatex(-5%);
 background:white;
 margin-bottom:-10%;
+
 }
 
 /* Parte de cima */
@@ -28,7 +29,7 @@ font-size:200%;
 color:blue;
 width:50%;
 height:10%;
-				transform: translatey(250%)translatex(17%);
+				transform: translatey(700%)translatex(17%);
 				margin-right: auto;
 }
 
@@ -37,7 +38,7 @@ font-size:800%;
 color:blue;
 width:10%;
 height:10%;
-				transform: translatey(100%)translatex(80%);
+				transform: translatey(600%) translatex(80%);
 				margin-right: auto;
 }
 .img{
@@ -236,4 +237,18 @@ border-radius:10%;
 
 cite{
     color: #ffdc00;
+}
+
+#topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  
+  padding-bottom: 20%;
+  z-index: 999;
+}
+
+.espaço{
+    padding-bottom: 30%;
 }
