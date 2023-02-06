@@ -1,12 +1,3 @@
-.tz{
-    background: blue;
-    height: 300px;
-    width: 100%;
-    margin-top:50%;
-    transform:rotateX(86deg);
-    
-}
-
 .hora{
     color:blue;
     transform: translatey(50%);
@@ -70,77 +61,11 @@ padding-top:5% ;
 				
 }
 
-.men{
-			 margin-top:5%;			
-				margin-bottom:5%;			
-				padding-top:5%;
-				font-size:420%;
-				margin-left:0%;			
-				width:136%;		
-				border-radius:5%;
-				padding-bottom:5%;
-				padding-right:1%; 				
-		  background: white;
-		  padding-left:5%;
-}
-
-.mai{
-				font-size:520%;
-				padding-top:5% ;			
-					margin-top:5%;			
-				margin-bottom:5%;			
-				width:136%;		
-				border-radius:5%;
-				padding-bottom:5%;
-				padding-right:1%;
-				background: white;
-				padding-left:5%;
-}
-
-
 .frd{
 			border-radius:10%;
 			max-width:100%;
 }
-/* .bnc{
-height:50%;
-width:66.5%;
-background:blue;
-border-top-left-radius:5%;
-border-bottom-left-radius:5%;
-transform: translatey(58%);
-margin-left: auto;
-} */
-/* .bbm{
-height:10%;
-width:33.5%;
-background:#2b2eff;
-border-top-left-radius:5%;
-border-bottom-left-radius:5%;
-transform: translatey(-150%);
-margin-left: auto;
-} */
-/* .vtr{
-				width:300px;
-				height:100px;
-				margin-left:500px;
-margin-top:100px;				
-} */
-/* .escpp{
-				border-color:#2b2eff;
-border-style:outset;
-width:200px;
-font:bold 50px arial, sans-serif;
-text-shadow:none;
-background:#d71259;
-color:blue;
-border-radius:10%;
-} */
-.imp{
-		transform:translatex(10%) translatey(5%);
-		height:1100px;
-				width:1100px;
-}
+
 .rdb{
 				width:130%;
 				height:10%;
@@ -166,13 +91,7 @@ border-radius:10%;
 .fon{
       font-family: "Times New Roman", Times, serif;
 }
-.fon2{
-    font-family: Arial, Helvetica, sans-serif;
-}
 
-.rdgr{
-    background:#bbe6f9; 
-}
 .cima_ol{
     margin-top:1000px;
 }
@@ -188,10 +107,7 @@ border-radius:10%;
 .bota{
     margin-left:50%;
 }
-.container {
-  display: grid;
-  grid-template-columns: 1fr;
-}
+
 .bt{
     width:20%;
     height:50px;
@@ -205,10 +121,7 @@ border-radius:10%;
 				padding-right:1%;
     font-family: "Times New Roman", Times, serif;
 }
-/* .polinot{
-    visibility:hidden;
-} */
-
+  
 .ft_usr{
     width: 120px;
     height: 120px;
