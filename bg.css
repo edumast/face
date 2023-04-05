@@ -1,84 +1,70 @@
 .hora{
     color:blue;
-    transform: translatey(50%);
-    	padding-bottom:5%;
-}
-
-/* Div de cima central */
-.bc{
-height:200px;
-width:149%;
-transform:translatey(-40%)translatex(-5%);
-
-margin-bottom:-10%;
-
-
+    padding:2vh;
 }
 
 /* Parte de cima */
 .apresen{
-font-size:200%;
+font-size:1.5vh;
 color:blue;
-width:50%;
-height:10%;
-				transform: translatey(900%)translatex(17%);
+width:80vw;
+height:10vh;
+padding-left:4vw;
+padding-top:2vh;
 				margin-right: auto;
 				
 }
 
 .txe{
-font-size:800%;
+font-size:7vh;
 color:blue;
-width:10%;
-height:10%;
-				transform: translatey(700%) translatex(80%);
+height:1vh;
+padding-left:4vw;
+margin-top:1vh;
 				margin-right: auto;
 }
 .img{
-				transform:translatex(10%) translatey(-1%);
-				height:1100px;
-				width:1100px;
+				transform:translatey(-1%)translatex(10%);
+				height:60rem;
+				width:60rem;
 				
 }
 
-.ftg{
-				font-size:800%;
-				margin-left:5%;
-}
 
 .rd2	{
-				padding-top:5%;
-				font-size:450%;
-				width:136%;			
-				padding-left:5%;
-				padding-right:1%;
-}
-.fon{
-      font-family: "Times New Roman", Times, serif;
+				padding-top:5vh;
+				font-size:3.5vh;
+				width:130vw;			
+				padding-left:5vw;
+				padding-right:1vw;
+				font-family: "Times New Roman", Times, serif;
 }
   
 .ft_usr{
-    width: 120px;
-    height: 120px;
-    margin-bottom: -1%;
+    width: 12vw;
+    height: 12vw;
+    margin-bottom: -1vh;
     border-radius:25%;
+    float:left;
     /*border-radius:50%; */
 }
 
 .name{
    margin-top: -3%;
+   
 }
 
 
 .nam{
-   margin-top: -9%;
-   margin-left:11%;
-   font-size: 50%;
+font-size:2vh;
+   float:left;
+   margin-top:1vh;
+   margin-left: 2vw;
 }
 
 
 .txt_b{
-    margin-top: 2%;
+    margin-top: 7vh;
     
 }
 
@@ -95,13 +81,13 @@ cite{
   top: 0;
   left: 0;
   right: 0;
-  
-  padding-bottom: 20%;
-  z-index: 9999; 
+  padding-bottom: 4vh;
+  z-index: 999; 
   background-color: rgba(255, 255, 255, 0.9);
-  
+  height:10vh;
+  width:100%;
 }
 
 .espaço{
-    padding-bottom: 30%;
+    padding-bottom: 13vh;
 }
