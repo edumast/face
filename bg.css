@@ -1,3 +1,7 @@
+body{
+  background:#d1d1d1;
+} 
+
 .hora{
     color:blue;
     padding:2vh;
@@ -24,7 +28,7 @@ margin-top:1vh;
 				margin-right: auto;
 }
 .img{
-				transform:translatey(-1%)translatex(10%);
+				transform:translatey(-1vw)translatex(6vh);
 				height:60rem;
 				width:60rem;
 				
@@ -38,11 +42,14 @@ margin-top:1vh;
 				padding-left:5vw;
 				padding-right:1vw;
 				font-family: "Times New Roman", Times, serif;
+				background:white;
+						  margin-top:2vh;
+						  padding-bottom:3vh;
 }
   
 .ft_usr{
-    width: 12vw;
-    height: 12vw;
+    width: 6vh;
+    
     margin-bottom: -1vh;
     border-radius:25%;
     float:left;
@@ -50,7 +57,7 @@ margin-top:1vh;
 }
 
 .name{
-   margin-top: -3%;
+   margin-top: -3vh;
    
 }
 
@@ -65,7 +72,7 @@ font-size:2vh;
 
 .txt_b{
     margin-top: 7vh;
-    
+    width: 100%;
 }
 
 .tempo{
@@ -91,3 +98,14 @@ cite{
 .espaço{
     padding-bottom: 13vh;
 }
+ @media(max-width: 574px) {
+.ft_usr{
+  width:2vh;
+}
+ 
+    body{
+        transform: scale(0.57);
+    transform-origin: 0 0; 
+    }
+        
+    }
