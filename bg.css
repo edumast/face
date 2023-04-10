@@ -11,7 +11,7 @@ body{
 .apresen{
 font-size:1.5vh;
 color:blue;
-width:80vw;
+width:80%;
 height:10vh;
 padding-left:4vw;
 padding-top:2vh;
@@ -38,9 +38,12 @@ margin-top:1vh;
 .rd2	{
 				padding-top:5vh;
 				font-size:3.5vh;
-				width:94vw;			
 				padding-left:5vw;
 				padding-right:1vw;
+				
+				width:110vw;			
+				
+				
 				font-family: "Times New Roman", Times, serif;
 				background:white;
 						  margin-top:2vh;
