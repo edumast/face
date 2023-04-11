@@ -1,5 +1,6 @@
 body{
   background:#d1d1d1;
+  margin:0;
 } 
 
 .hora{
@@ -75,7 +76,7 @@ font-size:2vh;
 
 .txt_b{
     margin-top: 7vh;
-    width: 100%;
+    width: 100vw;
 }
 
 .tempo{
