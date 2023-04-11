@@ -41,8 +41,7 @@ margin-top:1vh;
 				font-size:3.5vh;
 				padding-left:5vw;
 				padding-right:1vw;
-				
-				width:136vw;			
+				width:110vw;			
 				
 				
 				font-family: "Times New Roman", Times, serif;
@@ -102,6 +101,7 @@ cite{
 .espaço{
     padding-bottom: 13vh;
 }
+
  @media(max-width: 574px) {
 .ft_usr{
   width:2vh;
@@ -111,5 +111,8 @@ cite{
         transform: scale(0.57);
     transform-origin: 0 0; 
     }
+   .rd2{
+     width:100%;
+   }
         
     }
