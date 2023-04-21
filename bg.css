@@ -42,8 +42,6 @@ margin-top:1vh;
 				padding-left:5vw;
 				padding-right:1vw;
 				width:136vw;			
-				
-				
 				font-family: "Times New Roman", Times, serif;
 				background:white;
 						  margin-top:2vh;
@@ -112,7 +110,17 @@ cite{
     transform-origin: 0 0; 
     }
    .rd2{
-     width:100%;
+     width:93.9%;
    }
         
     }
+   
+  #per{
+    color: white;
+    font-size: 5rem;
+    float:right;
+    margin-top:-20vh;
+    padding: 1%;
+    background: blue;
+    padding-right:10%;
+  }
