@@ -124,5 +124,12 @@ cite{
     padding: 1%;
     background: blue;
     padding-right:10vw;
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Castoro Titling', cursiva;
+
   }
+ 
+ #per div{
+   font-family: "Times New Roman", Times, serif;
+display:inline-block ;
+
+ }
