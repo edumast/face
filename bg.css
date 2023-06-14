@@ -16,39 +16,66 @@ width:80%;
 height:10vh;
 padding-left:4vw;
 padding-top:2vh;
-				margin-right: auto;
-				
+margin-right: auto;
+margin-top:2vh;				
 }
 
 .txe{
-font-size:7vh;
+font-size:6vh;
 color:blue;
 height:1vh;
 padding-left:4vw;
 margin-top:1vh;
 				margin-right: auto;
 }
+
+#paginas{
+  height:5vh;
+  background-color:blue;
+  width:90%;
+  display:flex;
+flex-direction:row;
+  justify-content: space-between; 
+  padding-left:5%;
+  padding-right:5%;
+}
+
+#paginas a{
+  height:5vh;
+  text-decoration: none;
+  width:45%;
+}
+
+#paginas a div{
+  text-align:center;
+  height:5vh;
+  width:100%;
+  font-size:4vh;
+  background-color:white;
+}
+
 .img{
 				transform:translatey(-1vw)translatex(6vh);
 				height:60rem;
-				width:60rem;
+				width:6px;
 				
 }
 
-
-.rd2	{
+.rd2{
 				padding-top:5vh;
-				font-size:3.5vh;
-				padding-left:5vw;
-				padding-right:1vw;
-				width:136vw;			
+				font-size:3vh;
+				padding-left:5%;
+				padding-right:1%;
+				width:94%;			
 				font-family: "Times New Roman", Times, serif;
 				background:white;
 						  margin-top:2vh;
 						  padding-bottom:3vh;
 }
   
-.ft_usr{
+/*.ft_usr*/
+
+.rd2 .name img{
     width: 6vh;
     
     margin-bottom: -1vh;
@@ -63,7 +90,7 @@ margin-top:1vh;
 }
 
 
-.nam{
+.rd2 .name div{
 font-size:2vh;
    float:left;
    margin-top:1vh;
@@ -76,8 +103,18 @@ font-size:2vh;
     width: 100%;
 }
 
-.tempo{
+.rd2 .name span{
     color:grey;
+}
+
+.rd2 .name ftuser{
+  background-image: url(br_usr.png);
+  background-size: cover;
+  width: 6vh;
+  height:6vh;
+  margin-bottom: -1vh;
+  border-radius:25%;
+  float:left;
 }
 
 cite{
@@ -92,13 +129,13 @@ cite{
   padding-bottom: 4vh;
   z-index: 999; 
   background-color: rgba(255, 255, 255, 0.9);
-  height:10vh;
+  height:8vh;
   width:100%;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .espaço{
-    padding-bottom: 13vh;
+    padding-bottom: 15vh;
 }
 
  @media(max-width: 574px) {
@@ -111,25 +148,28 @@ cite{
     transform-origin: 0 0; 
     }
    .rd2{
-     width:93.9%;
+     width:93.2%;
    }
         
     }
    
   #per{
     color: white;
-    font-size: 3vh;
+    font-size: 2.5vh;
     float:right;
     margin-top:-20vh;
     padding: 1%;
     background: blue;
     padding-right:10vw;
     font-family: 'Castoro Titling', cursiva;
-
   }
  
  #per div{
    font-family: "Times New Roman", Times, serif;
 display:inline-block ;
-
  }
+ 
+.tags{
+margin-left:2vw; 
+  
+}
