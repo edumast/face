@@ -25,7 +25,7 @@ img{
 }
 
 .txe{
-font-size:6vh;
+font-size:5vh;
 color:blue;
 height:1vh;
 padding-left:4vw;
@@ -38,25 +38,21 @@ margin-top:1vh;
   background-color:blue;
   width:90%;
   display:flex;
-flex-direction:row;
+  flex-direction:row;
   justify-content: space-between; 
   padding-left:5%;
   padding-right:5%;
 }
 
 #paginas a{
-  height:5vh;
-  text-decoration: none;
   width:45%;
-}
-
-#paginas a div{
-  text-align:center;
-  height:5vh;
-  width:100%;
+  text-decoration: none;
+  height:100%;
   font-size:4vh;
   background-color:white;
+  text-align:center;
 }
+
 
 .img{
 				transform:translatey(-1vw)translatex(6vh);
@@ -67,7 +63,7 @@ flex-direction:row;
 
 .rd2{
 				padding-top:5vh;
-				font-size:3vh;
+				font-size:2.4vh;
 				padding-left:5%;
 				padding-right:1%;
 				width:94%;			
@@ -80,9 +76,8 @@ flex-direction:row;
 /*.ft_usr*/
 
 .rd2 .name img{
-    width: 6vh;
-    
-    margin-bottom: -1vh;
+    width: 5vh;
+    margin-top: 1vh;
     border-radius:25%;
     float:left;
     /*border-radius:50%; */
@@ -139,7 +134,7 @@ cite{
 }
 
 .espaco{
-    padding-bottom: 15vh;
+    padding-bottom: 12vh;
 }
 
  /*@media(max-width: 574px) {
@@ -159,7 +154,7 @@ cite{
    
   #per{
     color: white;
-    font-size: 2.5vh;
+    font-size: 2.4vh;
     float:right;
     margin-top:-20vh;
     padding: 1%;
