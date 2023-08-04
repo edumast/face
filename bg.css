@@ -171,3 +171,12 @@ display:inline-block ;
 margin-left:2vw; 
   
 }
+.title{
+  text-align: center;
+}
+
+.temp{
+  color: Grey;
+  margin-top: 2.5vh;
+  text-align:center;
+}
