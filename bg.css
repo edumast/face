@@ -180,3 +180,28 @@ margin-left:2vw;
   margin-top: 2.5vh;
   text-align:center;
 }
+
+.button-1{
+  background-color:blue;
+  border-radius:10px;
+  width:40%;
+  height:5vh;
+  margin-left: 30%;
+  margin-top:1%;
+  color:White;
+}
+
+#inp{
+  width: 80%;
+  height:5vh; 
+  margin-left: 10%;
+}
+#caixa{
+  margin-top:2.5vh;
+  padding-top: 0.5%;
+  padding-bottom: 2.5vh;
+  width:80%;
+  border-radius:10px;
+  background-color:White;
+  margin-left:10%;
+}
