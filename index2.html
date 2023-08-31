@@ -14,7 +14,7 @@
 <body>
 				    
 <div class="bc" id="topbar">
-												<h1 class="txe">Edubook 2</h1>
+												<h1 class="txe">Edubook</h1>
 												<h4 class="apresen">Apresentado por Eduardo Kenji Takemoto  </h4> 
 												<h1 id="per">Per aspera<br>ad astra <div>Φ</h1></div>
 							</div><div  class="espaco "></div>	
@@ -24,18 +24,9 @@
     <a href="index2.html" class="fa fa-angle-right"></a>
 	</div>
 	
-		<div id="caixa"> 
-	<h1 style="text-align: center;">Pesquisa</h1>
-	  <input type="text" id="inp">
-	  <button class="button-1" onclick="t(document.getElementById('inp').value)">
-	    Buscar
-	    </button>
-	    <input type="radio" id="radios" name="radios" value="js">
-	    	    <input type="radio" id="lower" name="lower">
-	    <h4 style="text-align:center;">DE 13/06/2023 A 23/07/2022</h4>
-	  </div>
-	
-							
+	<div id="box_finder"></div>
+	 <button onclick="show_finder()" id="show_finder">Procurar texto</button>
+
 								<div class="rd2 fon">	
 	  <div class="name"><img src="br_usr.png" alt="" class="ft_usr"><div class="nam">Eduardo Kenji <br><span class="tempo">13/06/2023 1:45 PM </span></div></div>
 		<div class="txt_b">
@@ -95,13 +86,13 @@ Aristóteles dizia que nem o excesso nem a falta seriam benéficos, mas sim a me
 								<div class="rd2 fon">	
 	  <div class="name"><img src="br_usr.png" alt="" class="ft_usr"><div class="nam">Eduardo Kenji <br><span class="tempo">4/06/2023 9:10 PM </span></div></div>
 		<div class="txt_b">
-A substância é a junção da forma e matéria. A forma pode existir sem a matéria, mas a matéria não existe sem uma forma.
+A substância é a junção da forma e matéria. A forma não pode existir sem a matéria, nem a matéria sem uma forma.
 	</div></div>		    
 							
 	<div class="rd2 fon">	
 	  <div class="name"><img src="br_usr.png" alt="" class="ft_usr"><div class="nam">Eduardo Kenji <br><span class="tempo">3/06/2023 8:55 PM </span></div></div>
 		<div class="txt_b">
-Símbolos passam significados, isso todos nós sabemos. Mas o que é também obvio, e que por vezes as pessoas não notam, é que símbolos também passam sentimentos. O sentimento que é passado por um símbolo é relativo a cada pessoa, mas a maior parte, ou mesmo todas, vão encontrar o mesmo sentimento em um determinado símbolo.
+Símbolos passam significados, isso todos nós sabemos. Mas o que é também óbvio, e que por vezes as pessoas não notam, é que símbolos também passam sentimentos. O sentimento que é passado por um símbolo é relativo a cada pessoa, mas a maior parte, ou mesmo todas, vão encontrar o mesmo sentimento em um determinado símbolo.
 	</div></div>		  
 							
 							  <div class="rd2 fon">	
@@ -201,7 +192,7 @@ A personalidade de um indivíduo é moldada, e nota-se o "moldada" em lugar de "
 							  <div class="rd2 fon">	
 	  <div class="name"><img src="br_usr.png" alt="" class="ft_usr"><div class="nam">Eduardo Kenji <br><span class="tempo">18/05/2023 10:45 PM </span></div></div>
 		<div class="txt_b">
-Existem várias formas de dizer tchal: adeus, até mais, boa ida, nos vemos algum dia, etc. Cada forma passa um sentido diferente, a despeito de terem um mesmo significado. As palavras contém um significado tanto concreto quanto abstrato. Com isso não quero dizer que podemos expressar todo tipo de noções abstratas por meio de uma palavras, pois para isso precisaríamos de uma gama infinita de palavras para expressar todas as noções abstratas, e precisaríamos que essas noções fossem iguais para todos. Todavia, podemos aumentar a gama de noções abstratas que podemos expressar em palavras por meio de junções de palavras em textos, embora ainda assim não abrangeria todo tipo de noção abstrata e as que se consiga abranger não significaria o mesmo para todo mundo. 
+Existem várias formas de dizer tchal: adeus, até mais, boa ida, nos vemos algum dia, etc. Cada forma passa um sentido diferente, a despeito de terem um mesmo significado. As palavras contém um significado tanto concreto quanto abstrato. Com isso não quero dizer que podemos expressar todo tipo de noções abstratas por meio das palavras, pois para isso precisaríamos de uma gama infinita de palavras para expressar todas as noções abstratas, e precisaríamos que essas noções fossem iguais para todos. Todavia, podemos aumentar a gama de noções abstratas que podemos expressar em palavras por meio de junções de palavras em textos, embora ainda assim não abrangeria todo tipo de noção abstrata e as que se consiga abranger não significaria o mesmo para todo mundo. 
 	</div></div>		  
 							
 							  <div class="rd2 fon">	
@@ -318,7 +309,7 @@ O medo de determinada coisa dar errado é ele mesmo, por vezes, sumo motivo de s
   <div class="rd2 fon">	
 	  <div class="name"><img src="br_usr.png" alt="" class="ft_usr"><div class="nam">Eduardo Kenji <br><span class="tempo">3/05/2023 6:20 PM </span></div></div>
 		<div class="txt_b">
-Nota prévia - o texto aqui anexado foi baseado em algumas anotações antigas minhas, do início de 2022, e, embora tenha sido apenas baseado, pode preservar sua terminologia e ideia "ultrapassada" em comparação aod mais novos, pois não tive tempo de levar o assunto a fundo, mas ficou interessante.
+Nota prévia - o texto aqui anexado foi baseado em algumas anotações antigas minhas, do início de 2022, e, embora tenha sido apenas baseado, pode preservar sua terminologia e ideia "ultrapassada" em comparação aos mais novos, pois não tive tempo de levar o assunto a fundo, mas ficou interessante.
 <br><br>
 Existem várias formas de passar uma mensagem de forma "subliminar", uma delas é falando uma mensagem para a pessoa da qual se quer dizer determinada coisa mas como se estivesse falando de uma terceira pessoa, que não existe, a pessoa irá compreender a sua mensagem, mas pensará que você não estava querendo falar isso a ele.<br><br>Exemplo:<br>
 no caso de se querer passar a mensagem de "me dê um presente no meu aniversário" para um amigo, você pode dizer no meio de uma conversa formal com ele "Esses dias teve um amigo próximo que disse que não iria me dar um presente no meu aniversário, você acredita? Ele nem era tão próximo como você, mas ele deveria dar. Fiquei desapontado com isso. Eu retirei ele do meu círculo social." assim você conseguirá passar sua mensagem nas entrelinhas.

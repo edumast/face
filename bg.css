@@ -205,3 +205,13 @@ margin-left:2vw;
   background-color:White;
   margin-left:10%;
 }
+
+#show_finder{
+  height:5vh;
+  width:50%;
+  margin-left:25%;
+  margin-top:2.5vh;
+  background-color:white; 
+  border:white;
+  border-radius:10px;
+}
