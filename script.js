@@ -59,7 +59,10 @@ function finder_kind(rad_tp){
 	  <button class="button-1" onclick="finder_kind(document.getElementById('inp').value)">
 	    Buscar
 	    </button>
-	    	    <input type="radio" id="radios" name="radios">
+	    <div class="type_center">
+	    	    <br>Busca por texto:<input type="radio" id="radios" name="radios"><br>
+	    	    *O padrão é data 
+	    	    </div>
 	    <h4 style="text-align:center;">DE 13/06/2023 A 23/07/2022</h4>
 	  </div>
  
