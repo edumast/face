@@ -211,12 +211,34 @@ margin-left:2vw;
   height:5vh;
   width:50%;
   margin-left:25%;
-  margin-top:2.5vh;
   background-color:white; 
   border:white;
   border-radius:10px;
+  margin-top:2.5vh;
 }
 
 .type_center{
   text-align: center;
+}
+
+.corner_button{
+  width:20vw;
+  height:5vh; 
+  background-color:white; 
+  border:0; 
+  border-radius:10px;
+  transform: translateY(-1vh);
+}
+
+.corner_button_1{
+  width:20vw;
+  height:5vh; 
+  background-color:white; 
+  border:0; 
+  border-radius:10px;
+  transform: translateY(5vh);
+}
+
+#ensembre{
+  display:inline-block;
 }

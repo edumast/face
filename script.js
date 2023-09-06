@@ -81,3 +81,11 @@ finder_activated=false;
         
         /*<div class="type_center"><br>Busca por texto:<input type="radio" id="radios" name="radios"><br>*O padrão é data</div>*/
 	    	    
+let font_number=0; 
+function alter_font(){
+  let divs=document.getElementsByClassName('rd2');
+  for (var i = 0; i < divs.length; i++) {
+  // Muda a fonte de cada elemento para "Arial"
+  divs[i].style.fontFamily = "Arial";
+}
+}
