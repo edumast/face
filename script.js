@@ -82,10 +82,39 @@ finder_activated=false;
         /*<div class="type_center"><br>Busca por texto:<input type="radio" id="radios" name="radios"><br>*O padrão é data</div>*/
 	    	    
 let font_number=0; 
+
 function alter_font(){
   let divs=document.getElementsByClassName('rd2');
   for (var i = 0; i < divs.length; i++) {
   // Muda a fonte de cada elemento para "Arial"
-  divs[i].style.fontFamily = "Arial";
-}
-}
+  switch (font_number){
+  case 0:
+    divs[i].style.fontFamily = "Arial";
+    break 
+  case 1:
+    divs[i].style.fontFamily = "Times new roman" ;
+    break
+}}
+  switch (font_number){
+    case 0:
+      font_number = 1;
+      break
+      case 1:
+        font_number = 0;
+        break
+  }
+} 
+
+let font_sz=5;
+function font_size(n){
+  let divs=document.getElementsByClassName('rd2');
+  if (font_sz > 1 && font_sz < 10){
+  font_sz=font_sz+n
+  for (var i = 0; i < divs.length; i++) {
+    divs[i].style.fontSize=font_sz+"vw";
+}}else{
+if (font_sz <= 1) {
+  font_sz+=1; 
+}else if (font_sz >= 10){
+  font_sz-=1;
+}}} 

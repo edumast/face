@@ -198,7 +198,7 @@ margin-left:2vw;
   border-radius:10px;
 }
 #caixa{
-  margin-top:2.5vh;
+  margin-top:1vh;
   padding-top: 0.5%;
   padding-bottom: 2.5vh;
   width:80%;
@@ -210,11 +210,10 @@ margin-left:2vw;
 #show_finder{
   height:5vh;
   width:50%;
-  margin-left:25%;
   background-color:white; 
   border:white;
   border-radius:10px;
-  margin-top:2.5vh;
+  transform: translateY(1vh);
 }
 
 .type_center{
@@ -227,18 +226,26 @@ margin-left:2vw;
   background-color:white; 
   border:0; 
   border-radius:10px;
-  transform: translateY(-1vh);
 }
 
 .corner_button_1{
-  width:20vw;
+  width:10vw;
   height:5vh; 
   background-color:white; 
   border:0; 
   border-radius:10px;
-  transform: translateY(5vh);
+  transform: translateY(1vh);
+}
+#corner_bt1{
+  margin-left:4vw; 
+}
+#corner_bt2{
+  
 }
 
-#ensembre{
+.ensembre{
   display:inline-block;
+}
+li{
+  list-style: none; 
 }
