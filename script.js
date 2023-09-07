@@ -89,9 +89,15 @@ function alter_font(){
   // Muda a fonte de cada elemento para "Arial"
   switch (font_number){
   case 0:
+    divs[i].style.fontFamily = '"Courier New", Courier, mono' ;
+    break
+  case 1:
     divs[i].style.fontFamily = "Arial";
     break 
-  case 1:
+  case 2:
+    divs[i].style.fontFamily = "'Script MT', cursive";
+    break
+  case 4:
     divs[i].style.fontFamily = "Times new roman" ;
     break
 }}
@@ -100,8 +106,14 @@ function alter_font(){
       font_number = 1;
       break
       case 1:
-        font_number = 0;
+        font_number = 2;
         break
+       case 2:
+         font_number = 4;
+         break
+       case 4:
+         font_number =0;
+         break
   }
 } 
 
