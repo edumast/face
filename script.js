@@ -41,7 +41,10 @@ function finder_kind(rad_tp){
                 if (n.includes(data.toLowerCase() ) ==true){
                     x=divs[i]
                     x=x.innerText;
-                    alert(x);
+                    var continue_finder=confirm(x);
+                    if (continue_finder == false ){
+                      break 
+                    }
                 } 
             }
        } 
