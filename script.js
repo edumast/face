@@ -87,15 +87,15 @@ finder_activated=false;
 let font_number=0; 
 
 function alter_font(){
-  let divs=document.getElementsByClassName('rd2');
+  let divs=document.getElementsByClassName()('rd2');
   for (var i = 0; i < divs.length; i++) {
   // Muda a fonte de cada elemento para "Arial"
   switch (font_number){
   case 0:
-    divs[i].style.fontFamily = '"Courier New", Courier, mono' ;
+    divs[i].style.fontFamily = "Arial";
     break
   case 1:
-    divs[i].style.fontFamily = "Arial";
+    divs[i].style.fontFamily = '"Courier New", Courier, mono';
     break 
   case 2:
     divs[i].style.fontFamily = "'Script MT', cursive";
