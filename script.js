@@ -67,7 +67,7 @@ function finder_kind(rad_tp){
 	    Buscar
 	    </button>
 	 		  <div class='type_center'>palavras e datas</div>
-	    <h4 style="text-align:center;">Parte 2: DE 14/06/2023 A indefinido<br><br>Parte 1: DE 13/06/2023 A 23/07/2022</h4>
+	    <h4 style="text-align:center;">Parte 2: DE 14/06/2023 A 31/10/2023 [...] <br><br>Parte 1: DE 13/06/2023 A 23/07/2022</h4>
 	  </div>
  
   `;
