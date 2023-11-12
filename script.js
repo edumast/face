@@ -87,7 +87,7 @@ finder_activated=false;
 let font_number=0; 
 
 function alter_font(){
-  let divs=document.getElementsByClassName()('rd2');
+  let divs=document.getElementsByClassName('rd2');
   for (var i = 0; i < divs.length; i++) {
   // Muda a fonte de cada elemento para "Arial"
   switch (font_number){
