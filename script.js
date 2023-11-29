@@ -120,7 +120,7 @@ function alter_font(){
   }
 } 
 
-let font_sz=5;
+let font_sz=4;
 function font_size(n){
   let divs=document.getElementsByClassName('rd2');
   if (font_sz > 1 && font_sz < 10){
