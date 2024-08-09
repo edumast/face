@@ -60,7 +60,7 @@ margin-top:1vh;
 				transform:translatey(-1vw)translatex(6vh);
 				height:300px;
 				width:300px;
-				
+				border-radius: 10px;
 }
 
 .rd2{
