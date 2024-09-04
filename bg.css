@@ -79,7 +79,6 @@ margin-top:1vh;
     margin-top: 1vh;
     border-radius:25%;
     float:left;
-    /*border-radius:50%; */
 }
 
 .name{
@@ -135,21 +134,6 @@ cite{
 .espaco{
     padding-bottom: 12vh;
 }
-
- /*@media(max-width: 574px) {
-.ft_usr{
-  width:2vh;
-}
- 
-    body{
-        transform: scale(0.57);
-    transform-origin: 0 0; 
-    }
-   .rd2{
-     width:93.2%;
-   }
-        
-    }*/
    
   #per{
     color: white;
