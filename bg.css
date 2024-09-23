@@ -62,6 +62,20 @@ margin-top:1vh;
 				border-radius: 10px;
 }
 
+.imgVertical{
+				transform:translatey(-1vw)translatex(6vh);
+				height:400px;
+				width:300px;
+				border-radius: 10px;
+}
+
+.imgHorizontal{
+				transform:translatey(-1vw)translatex(6vh);
+				height:200px;
+				width:300px;
+				border-radius: 10px;
+}
+
 .rd2{
 				padding-top:5vh;
 				font-size:4vw;
